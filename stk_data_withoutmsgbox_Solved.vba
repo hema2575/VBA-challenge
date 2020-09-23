@@ -18,7 +18,7 @@ Dim i As Double
   
 For Each book In Workbooks
   For Each sheet In book.Worksheets
-       MsgBox (sheet.Name)
+      ' MsgBox (sheet.Name)
        'MsgBox ("Rowcount is:" & sheet.Cells(Rows.Count, 1).End(xlUp).Row)
    EOYCloserowNum = 1
       For i = 2 To sheet.Cells(Rows.Count, 1).End(xlUp).Row
